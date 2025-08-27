@@ -33,7 +33,7 @@ const create = (newUser) => { // condição ternario if simplificado
 }
 
 // Exportar as funções (que foram declaradas)
-modules.exports = {
+module.exports = {
     findAll, 
     findById, 
     create

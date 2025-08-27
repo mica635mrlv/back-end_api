@@ -20,5 +20,5 @@ app.get('/', (req, res) => {
 
 // Inicia o servidor (método do express que coloca o servidor no ar, fazendo ele ouvir as requisições)
 app.listen(porta, () => { // definir porta e rota test
-    console.log(`Servidor rodando em http://localhost:${porta}`);
+    console.log(`Servidor rodando em http://localhost:${porta}/users`);
 })
